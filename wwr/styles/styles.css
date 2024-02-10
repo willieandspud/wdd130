@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Futura:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
 /* Set max-width and center content */
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
+   max-width: 1600px;
+   margin: 0 auto;
 }
 
 /* Center specific elements */
@@ -10,17 +12,17 @@ nav a,
 #hero-msg h4,
 .button-box,
 main section {
-    text-align: center;
+   text-align: center;
 }
 
 /* Set background height */
 #background {
-    height: 725px;
+   height: 725px;
 }
 
 /* Set background colors */
 body {
-    background-color: #90C6E0;
+   background-color: #90C6E0;
 }
 
 header,
@@ -32,8 +34,8 @@ nav a:hover,
 #background,
 .msg,
 footer {
-    background-color: #565447;
-    color: #fff;
+   background-color: #565447;
+   color: #fff;
 }
 
 /* Set text color */
@@ -50,17 +52,17 @@ h4,
 footer,
 footer a,
 footer a:hover {
-    color: #fff;
+   color: #fff;
 }
 
 /* Set widths */
 .logo,
 .icon {
-    width: 80px;
+   width: 80px;
 }
 
 #hero-img {
-    width: 100%;
+   width: 100%;
 }
 
 /* Remove underlines */
@@ -68,17 +70,102 @@ nav a,
 .book,
 .join,
 footer a {
-    text-decoration: none;
+   text-decoration: none;
 }
 
 nav a:hover,
 .book:hover,
 .join:hover,
 footer p a:hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 /* Increase footer font size */
 footer {
-    font-size: 1.2em;
+   font-size: 1.2em;
+}
+
+/* Additional instructions from the task */
+
+/* Set font family and size */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.home-title {
+    font-family: 'Futura', sans-serif;
+    font-size: 2em;
+    margin-top: 10px; /* Add margin where needed */
+}
+
+.msg {
+    line-height: 1.5em;
+}
+
+/* Add padding and margin where needed */
+#logo_link {
+    padding-top: 5px; /* Add padding where needed */
+}
+
+nav a {
+    padding: 35px; /* Add padding where needed */
+}
+
+.book, .join {
+    padding: 15px 30px; /* Add padding where needed */
+    margin-top: 50px; /* Add margin where needed */
+    border-radius: 5px; /* Add border-radius where needed */
+}
+
+.icon {
+    padding-top: 10px; /* Add padding where needed */
+}
+
+.msg {
+    padding: 35px; /* Add padding where needed */
+}
+
+.msg p {
+    padding-bottom: 15px; /* Add padding where needed */
+}
+
+footer {
+    padding: 25px 50px; /* Add padding where needed */
+    margin-top: 200px; /* Add margin where needed */
+}
+
+footer .social img {
+    padding-top: 15px; /* Add padding where needed */
+}
+
+/* Add borders and box-sizing */
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px; /* Add padding where needed */
+    margin-top: 50px; /* Add margin where needed */
+    border-radius: 5px; /* Add border-radius where needed */
+}
+
+.card-img {
+    border: 10px solid #d9c2a3; /* Add border where needed */
+}
+
+main section img {
+    box-sizing: border-box; /* Add box-sizing where needed */
+}
+
+/* Set margin for specific selectors */
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0; /* Add margin where needed */
 }
