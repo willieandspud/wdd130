@@ -1,6 +1,6 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a | */
+Fonts are separated by this | */
 @font-face {
     font-family: "Tallboy";
     src: url('fonts/Tallboy.woff') format('opentype'); /* Adjust the path as needed */
