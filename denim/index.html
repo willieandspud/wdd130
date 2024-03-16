@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>A History of Denim and Workwear | le bon jean | Home</title>
+   <link rel="stylesheet" href="styles/site-plan.css">
+   <style>
+       /* Additional styles for index.html */
+       .hamburger {
+           display: block;
+           position: fixed;
+           top: 20px;
+           left: 20px;
+           z-index: 999;
+           cursor: pointer;
+       }
+       .nav-links {
+           display: none;
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100vh;
+           background-color: rgba(255, 255, 255, 0.9);
+           z-index: 998;
+           padding-top: 80px; /* Adjusted to accommodate header height */
+           text-align: center;
+       }
+       .nav-links.show {
+           display: block;
+       }
+       /* Additional styles for hero image */
+       .hero-image {
+           /* Add styles for your hero image */
+       }
+       /* Additional styles for buttons */
+       .button-container {
+           text-align: center;
+           margin-top: 20px;
+       }
+       .button {
+           display: inline-block;
+           padding: 10px 20px;
+           background-color: #ddb53d;
+           color: white;
+           text-align: center;
+           text-decoration: none;
+           font-size: 16px;
+           margin: 10px;
+           cursor: pointer;
+       }
+       /* Additional styles for call-to-action */
+       .call-to-action {
+           text-align: center;
+           margin-top: 50px;
+       }
+   </style>
+</head>
+<body>
+   <header>
+       <a id="logo_link" href="index.html">
+           <img class="logo" src="images/le bon jean logo_scaled.png" alt="le bon jean Logo">
+       </a>
+       <div class="hamburger">&#9776;</div>
+       <nav class="nav-links">
+           <a href="index.html">Home</a>
+           <a href="site-plan-rafting.html">Site Plan</a>
+           <a href="history.html">Denim History</a>
+           <a href="dating.html">A Guide To Dating Denim</a>
+       </nav>
+   </header>
+   <main class="home-grid">
+       <!-- Hero Image -->
+       <div class="hero-image">
+           <!-- Placeholder for hero image -->
+           <img src="https://www.hawthornintl.com/wp-content/uploads/2018/03/farmers-wearing-jeans-1930.jpg" alt="image for homepage">
+           <h1>Welcome to le bon jean</h1>
+       </div>
+       <!-- Text Content -->
+       <div class="text-content">
+           <p>le bon jean, French meaning "the good denim." The story of workwear and American militaria has an impressive cast of characters, but denim has always stolen the show. The story of workwear is, at its core, the story of denim. It is a story written in indigo ink on a surface of woven cotton, which continues to captivate many. Wool, leather, canvas, and duck cloth all play important roles, but it's denim that looms large in the history of workwear. More than any other fabric, it bears the imprint of both workers and servicemen and the work they do. It has a story of its own, but also tells a story about us.</p>
+           <!-- Buttons -->
+           <div class="button-container">
+               <a href="history.html" class="button">Denim History</a>
+               <a href="dating.html" class="button">A Guide To Dating Denim</a>
+           </div>
+           <!-- Call to Action -->
+           <div class="call-to-action">
+               <h2>Sign Up To Stay Informed</h2>
+               <a href="signup.html" class="button">Sign Up</a>
+           </div>
+       </div>
+   </main>
+   <footer>
+       <p>le bon jean &copy; 2024</p>
+       <p><a href="site-plan.html">Site Plan</a></p>
+       <p><a href="history.html">Denim History</a></p>
+       <p><a href="dating.html">A Guide To Dating Denim</a></p>
+   </footer>
+   <script>
+       // JavaScript for hamburger menu toggle
+       const hamburger = document.querySelector('.hamburger');
+       const navLinks = document.querySelector('.nav-links');
+
+       hamburger.addEventListener('click', () => {
+           navLinks.classList.toggle('show');
+       });
+   </script>
+</body>
+</html>
