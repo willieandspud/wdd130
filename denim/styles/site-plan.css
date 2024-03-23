@@ -191,11 +191,10 @@ nav a:hover {
   margin-top: 50px;
 }
 footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 20px;
-  background-color: var(--secondary-color);
+  background-color: var(--accent1-color);
   color: var(--headline-color-on-color);
 }
 
