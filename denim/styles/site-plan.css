@@ -190,3 +190,33 @@ nav a:hover {
   margin-top: 50px; /* Adjust this value to create space between hero image and text */
   margin-top: 50px;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  color: var(--headline-color-on-color);
+}
+
+.footer-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: var(--headline-color-on-color);
+}
