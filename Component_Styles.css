@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Tallboy";
+    src: ('denim/fonts/Tallboy.woff') format('opentype'); /* Adjust the path as needed */
+  }
+  
+  @font-face {
+    font-family: "Workman";
+    src: ('denim/fonts/Work.woff') format('opentype'); /* Adjust the path here as needed */
+}
+:root {
+    --heading-font: "Tallboy";
+    --paragraph-font: "Workman", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Tallboy", sans-serif;
+    color: var(--headline-color-on-white);
+  }
+p {
+    font-family: "Workman", sans-serif;
+  color: var(--paragraph-color-on-white);
+}
+body {
+            background-color: #DBEFED;
+        }
+.dropbtn {
+  background-color: #D94527;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #CE8478;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D9CDC6;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+button { font-family: "Workman", sans-serif;
+    color: var(--paragraph-color-on-white);
+}
+.dropdown {
+    font-family: "Workman", sans-serif;
+    color: var(--paragraph-color-on-white);
+}
