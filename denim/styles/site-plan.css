@@ -240,6 +240,7 @@ history-content {
 .history-image {
   margin-left: 20px; /* Add margin between the text and image */
   width: 50%; /* Adjust width as needed */
+  align-self: center;
 }
 
 .history-image img {
@@ -261,10 +262,10 @@ history-content {
 .left-section {
   display: flex;
   flex-direction: row;
-  align-items: flex-start; /* Align items at the top */
+  align-items: center; /* Align items at the top */
   justify-content: flex-start; /* Align items at the start */
   margin-bottom: 20px; /* Adjust margin as needed */
 }
 .history-text h2 {
-  font-size: 30px; /* Adjust the font size as needed */
+  font-size: 36px; /* Adjust the font size as needed */
 }
