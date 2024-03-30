@@ -219,3 +219,32 @@ footer {
   text-decoration: none;
   color: var(--headline-color-on-color);
 }
+.history-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.history-text {
+  width: calc(50% - 20px); /* Adjust width as needed */
+}
+
+.history-image {
+  width: calc(50% - 20px); /* Adjust width as needed */
+  position: relative;
+}
+
+.history-image img {
+  max-width: 100%;
+  display: block;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
