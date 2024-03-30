@@ -251,3 +251,10 @@ history-content {
   color: #555;
   margin-top: 10px; /* Adjust top margin as needed */
 }
+.history-text-left h2 {
+  text-align: left;
+}
+
+.history-text-right h2 {
+  text-align: right;
+}
