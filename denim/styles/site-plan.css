@@ -276,3 +276,12 @@ history-content {
   justify-content: flex-start; /* Align items at the start */
   margin-bottom: 20px; /* Adjust margin as needed */
 }
+.history-shawl-image {
+  margin-right: 20px; /* Add margin between the text and image */
+  width: 50%; /* Adjust width as needed */
+  align-self: center;
+}
+
+.history-shawl-image img {
+  max-width: 100%;
+}
