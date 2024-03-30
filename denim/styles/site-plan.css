@@ -225,7 +225,7 @@ footer {
   align-items: flex-start;
 }
 
-.history-text {
+.history-left-content {
   width: calc(50% - 20px); /* Adjust width as needed */
 }
 
