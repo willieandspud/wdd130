@@ -5,6 +5,32 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>A History of Denim | le bon jean</title>
    <link rel="stylesheet" href="styles/site-plan.css">
+   <style>
+       /* Additional styles for index.html */
+       .hamburger {
+           display: block;
+           position: fixed;
+           top: 20px;
+           left: 20px;
+           z-index: 999;
+           cursor: pointer;
+       }
+       .nav-links {
+           display: none;
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100vh;
+           background-color: rgba(255, 255, 255, 0.9);
+           z-index: 998;
+           padding-top: 80px; /* Adjusted to accommodate header height */
+           text-align: center;
+       }
+       .nav-links.show {
+           display: block;
+       }
+   </style>
 </head>
 <body>
    <header>
