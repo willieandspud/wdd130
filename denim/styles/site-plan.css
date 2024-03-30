@@ -264,3 +264,13 @@ footer {
 .history-text h2 {
   font-size: 24px; /* Adjust the font size as needed */
 }
+.history-image.right-section .image-caption {
+  text-align: right;
+}
+.left-section h2 {
+  text-align: left;
+}
+
+.right-section h2 {
+  text-align: right;
+}
