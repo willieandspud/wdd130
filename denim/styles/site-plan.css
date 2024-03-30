@@ -2,14 +2,15 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by this | */
 @font-face {
-    font-family: "Tallboy";
-    src: url('https://github.com/willieandspud/wdd130/blob/main/denim/fonts/TALLBOY.woff') format('woff'); /* Adjust the path and format here as needed */
+  font-family: "Tallboy";
+  src: url('https://raw.githubusercontent.com/willieandspud/wdd130/main/denim/fonts/TALLBOY.woff') format('woff');
 }
-  
-  @font-face {
-    font-family: "Workman";
-   src: url('https://github.com/willieandspud/wdd130/blob/main/denim/fonts/Work.woff') format('woff'); /* Adjust the path and format here as needed */
+
+@font-face {
+  font-family: "Workman";
+  src: url('https://raw.githubusercontent.com/willieandspud/wdd130/main/denim/fonts/Work.woff') format('woff');
 }
+
   
 :root {
   /* change the values below to your colors from your palette */
