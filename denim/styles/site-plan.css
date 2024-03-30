@@ -219,32 +219,35 @@ footer {
   text-decoration: none;
   color: var(--headline-color-on-color);
 }
-.history-left-content {
+history-content {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
 }
 
-.history-left-content {
-  width: calc(50% - 20px); /* Adjust width as needed */
+.history-text {
+  width: 100%; /* Adjust width as needed */
+}
+
+.history-text-left {
+  text-align: left;
+}
+
+.history-text-right {
+  text-align: right;
 }
 
 .history-image {
-  width: calc(50% - 20px); /* Adjust width as needed */
-  position: relative;
+  width: 100%; /* Adjust width as needed */
+  margin-top: 20px; /* Adjust top margin as needed */
+  text-align: center; /* Center the image horizontally */
 }
 
 .history-image img {
   max-width: 100%;
-  display: block;
 }
 
 .image-caption {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  width: 100%;
-  text-align: center;
   font-size: 14px;
   color: #555;
+  margin-top: 10px; /* Adjust top margin as needed */
 }
