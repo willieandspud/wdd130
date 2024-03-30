@@ -219,7 +219,7 @@ footer {
   text-decoration: none;
   color: var(--headline-color-on-color);
 }
-.history-page {
+.history-left-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
