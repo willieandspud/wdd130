@@ -3,12 +3,12 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by this | */
 @font-face {
     font-family: "Tallboy";
-    src: url('fonts/Tallboy.woff') format('woff'); /* Adjust the path and format here as needed */
+    src: ('fonts/Tallboy.woff') format('woff'); /* Adjust the path and format here as needed */
 }
   
   @font-face {
     font-family: "Workman";
-   src: url('fonts/Work.woff') format('woff'); /* Adjust the path and format here as needed */
+   src: ('fonts/Work.woff') format('woff'); /* Adjust the path and format here as needed */
 }
   
 :root {
