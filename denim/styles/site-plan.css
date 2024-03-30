@@ -257,3 +257,10 @@ footer {
   color: #555;
   margin-top: 10px; /* Adjust top margin as needed */
 }
+.history-heading {
+  font-size: 36px; /* Adjust the font size as needed */
+}
+
+.history-text h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+}
