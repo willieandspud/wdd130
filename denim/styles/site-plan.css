@@ -259,23 +259,18 @@ history-content {
 .history-text-right h2 {
   text-align: right;
 }
-.left-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center; /* Align items at the top */
-  justify-content: flex-start; /* Align items at the start */
-  margin-bottom: 20px; /* Adjust margin as needed */
+
+.left-section,
+.right-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically center */
+    margin-bottom: 20px; /* Adjust margin as needed */
 }
 .history-text h2 {
   font-size: 36px; /* Adjust the font size as needed */
 }
-.right-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center; /* Align items at the top */
-  justify-content: flex-start; /* Align items at the start */
-  margin-bottom: 20px; /* Adjust margin as needed */
-}
+
 .history-shawl-image {
   margin-right: 20px; /* Add margin between the text and image */
   width: 50%; /* Adjust width as needed */
@@ -284,4 +279,13 @@ history-content {
 
 .history-shawl-image img {
   max-width: 100%;
+}
+.left-section .history-text-left {
+  text-align: left;
+  flex: 1; /* Occupy remaining space */
+}
+
+.right-section .history-text-right {
+  text-align: right;
+  flex: 1; /* Occupy remaining space */
 }
