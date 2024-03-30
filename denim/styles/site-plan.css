@@ -230,6 +230,7 @@ history-content {
 
 .history-text-left {
   text-align: left;
+  flex: 1;
 }
 
 .history-text-right {
@@ -237,9 +238,8 @@ history-content {
 }
 
 .history-image {
-  width: 100%; /* Adjust width as needed */
-  margin-top: 20px; /* Adjust top margin as needed */
-  text-align: center; /* Center the image horizontally */
+  margin-left: 20px; /* Add margin between the text and image */
+  width: 50%; /* Adjust width as needed */
 }
 
 .history-image img {
@@ -257,4 +257,11 @@ history-content {
 
 .history-text-right h2 {
   text-align: right;
+}
+.left-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Align items at the top */
+  justify-content: flex-start; /* Align items at the start */
+  margin-bottom: 20px; /* Adjust margin as needed */
 }
