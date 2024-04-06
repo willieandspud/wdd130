@@ -275,3 +275,45 @@ footer {
 .right-section h2 {
   text-align: right;
 }
+.dating-page {
+  text-align: center; /* Center align content */
+}
+
+.dating-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px; /* Add margin below the headline */
+}
+
+.dating-content img {
+  display: block; /* Make image a block element */
+  margin: 0 auto 20px; /* Center align image and add margin below */
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+}
+.dating-content img {
+  display: block;
+  margin: 0 auto 40px; /* Increased margin to add more space */
+  max-width: 100%;
+}
+
+/* Add margin above and below the paragraph text */
+.dating-content p {
+  margin: 20px 0; /* Add margin above and below the paragraph text */
+}
+.dating-content h2 {
+  text-align: left; /* Align the "Levi's" heading to the left */
+  margin-bottom: 40px; /* Add margin below the "Levi's" heading */
+  font-size: 32px;
+}
+
+/* Add margin below the paragraph text */
+.dating-content p {
+  margin-bottom: 60px; /* Add margin below the paragraph text */
+}
+.dating-Levis {
+  width: 50%; /* Set width to 50% of the parent container */
+}
+
+/* Left align the paragraph text in the "dating-Levis" section */
+.dating-Levis p {
+  text-align: left; /* Align paragraph text to the left */
+}
