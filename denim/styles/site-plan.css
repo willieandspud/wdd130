@@ -314,48 +314,37 @@ footer {
 .dating-Levis p {
   text-align: left; /* Align paragraph text to the left */
 }
-.dating-content {
+.group {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Each column takes up half of the webpage/screen */
-  grid-template-rows: repeat(4, auto); /* 4 rows with automatic height */
+   /* 4 rows with automatic height */
   grid-row-gap: 20px; /* Add some space between rows */
 }
 
 .patch-image,
 .two-pockets-image,
 .red-tab-image,
-.jacron-image {
+.feature {
   grid-column: 2; /* Located in the first column */
 }
 
 .two-horse-patch,
 .two-square-back-pockets,
 .red-tab-intro,
-.jacron-patch {
+.story {
   grid-column: 1; /* Located in the second column */
 }
 
-.two-horse-patch {
-  grid-row: 1; /* Located in the first row */
+.group{
+  grid-template-rows: 1;
+  grid-row-gap: 40px;
 }
-.two-square-back-pockets {
-  grid-row: 2;
+.story,
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.red-tab-intro {
-  grid-row: 3;
-}
-.jacron-patch {
-  grid-row: 4;
-}
-.patch-image {
-  grid-row: 1; /* Located in the first row */
-}
-.two-pockets-image {
-  grid-row: 2; /* Located in the second row */
-}
-.red-tab-image {
-  grid-row: 3; /* Located in the third row */
-}
-.jacron-image {
-  grid-row: 4; /* Located in the fourth row */
+.image-caption {
+  text-align: center;
 }
